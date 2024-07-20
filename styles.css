@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
 }
 @font-face {
     font-family: 'customFont';
@@ -46,12 +47,16 @@ body{
     color: white;
 }
 p{
-    font-weight: bold;
-    font-size: 20px;
+    /*font-weight: bold;*/
+    /*font-size: 20px;*/
 }
 
 #form-container{
     background-color: darkslategray;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+
 
 }
 form{
@@ -59,16 +64,42 @@ form{
 }
 input{
     display: block;
-    margin-top: 0px;
+    height: 25px;
+    width: 300px;
+    margin-top: 5px;
     margin-left: 20px;
     margin-right: 20px;
+    margin-bottom: 20px;
 }
 label{
     margin-left: 20px;
     margin-right: 20px;
-    margin-bottom: 0;
+    margin-bottom: 50px;
+    /*margin-bottom: ;*/
 }
 #first-row, #second-row, #third-row{
     display: flex;
     border: 1px solid black;
+}
+button{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-family: 'customFont';
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#login{
+    margin-left: 30px;
+}
+#text-header{
+    margin-top: 180px;
+    margin-left: 30px;
+}
+
+#text-header p{
+    font-family: 'fa';
+    font-weight: bold;
 }
