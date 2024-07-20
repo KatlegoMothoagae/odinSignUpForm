@@ -25,7 +25,7 @@ body{
     margin-top: 250px;
     height: 136px;
     width: 100%;
-    background-color: rgba(0,0,0,0.5w);
+    background-color: rgba(0,0,0,0.5);
 }
 #logo-img{
     display: inline;
@@ -52,4 +52,16 @@ p{
 
 #form-container{
     background-color: darkslategray;
+
+}
+form{
+    border: 1px solid black;
+}
+label,input{
+    display: block;
+
+}
+#first-row, #second-row, #third-row{
+    display: flex;
+    border: 1px solid black;
 }
