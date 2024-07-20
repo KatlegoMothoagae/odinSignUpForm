@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
+    background-color: antiquewhite;
 }
 @font-face {
     font-family: 'customFont';
@@ -52,10 +53,11 @@ p{
 }
 
 #form-container{
-    background-color: darkslategray;
+    background-color: white;
     padding-top: 20px;
     padding-bottom: 30px;
     padding-left: 30px;
+    box-shadow: 10px 10px 8px #888888;
 
 
 }
@@ -100,6 +102,5 @@ button{
 }
 
 #text-header p{
-    font-family: 'fa';
     font-weight: bold;
 }
