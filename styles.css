@@ -1,15 +1,55 @@
 body{
     margin: 0;
 }
+@font-face {
+    font-family: 'customFont';
+    src: url('media/Norse-Bold.otf');
+}
 #container{
     display: flex;
+    height: 100vh;
 }
 #left-container{
+    justify-content: center;
+    display: flex;
+
+    width: 40%;
     border: 1px solid red;
+    background: url("media/background.jpg");
+    background-size: cover;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 250px;
+    height: 136px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5w);
+}
+#logo-img{
+    display: inline;
+    /*margin-left: 30%;*/
+    /*margin-top: 0px;*/
+    width: 100px;
 }
 #right-container{
+    width: 70%;
     border: 1px solid blue;
 }
 #background{
     width: 100%;
+}
+#logo-header{
+    font-family: customFont, serif;
+    font-size: 150px;
+    color: white;
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#form-container{
+    background-color: darkslategray;
 }
