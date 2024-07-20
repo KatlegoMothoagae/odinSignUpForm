@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, Verdana, sans-serif;
-    background-color: antiquewhite;
+    background-color: ghostwhite;
 }
 @font-face {
     font-family: 'customFont';
@@ -16,7 +16,6 @@ body{
     display: flex;
 
     width: 40%;
-    border: 1px solid red;
     background: url("media/background.jpg");
     background-size: cover;
 }
@@ -37,7 +36,6 @@ body{
 }
 #right-container{
     width: 70%;
-    border: 1px solid blue;
 }
 #background{
     width: 100%;
@@ -61,9 +59,7 @@ p{
 
 
 }
-form{
-    border: 1px solid black;
-}
+
 input{
     display: block;
     height: 25px;
@@ -77,11 +73,11 @@ label{
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 50px;
+    color: grey;
     /*margin-bottom: ;*/
 }
 #first-row, #second-row, #third-row{
     display: flex;
-    border: 1px solid black;
 }
 button{
     margin-left: 30px;
@@ -102,5 +98,10 @@ button{
 }
 
 #text-header p{
-    font-weight: bold;
+    /*font-weight: bold;*/
+    font-size: 20px;
+}
+#form-container p{
+    font-size: 25px;
+    font-weight:590;
 }
